@@ -16,6 +16,7 @@ let currentQuestion = 0;
 let score = 0;
 
 window.onload = () => {
+    optionMap.clear();
     showNextQuestion();
     setAttemptedAnswer();
     restartButton.style.display = "none";
@@ -129,4 +130,5 @@ const reStart = () => {
     scoreBoard.style.display = 'none';
     optionMap.clear();
     showNextQuestion();
+    setAttemptedAnswer();
 }
