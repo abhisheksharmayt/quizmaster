@@ -3,6 +3,7 @@ import quizData from './quiz.json' assert{type: "json"}
 const nextButton = document.getElementById('next');
 const prevButton = document.getElementById('prev');
 const restartButton = document.getElementById('reset');
+const startupButton = document.getElementById('startup-btn');
 const first = document.getElementById('first');
 const second = document.getElementById('second');
 const third = document.getElementById('third');
@@ -15,12 +16,19 @@ let submit = false;
 let currentQuestion = 0;
 let score = 0;
 
-window.onload = () => {
-    optionMap.clear();
+// window.onload = () => {
+//     optionMap.clear();
+//     showNextQuestion();
+//     setAttemptedAnswer();
+//     restartButton.style.display = "none";
+// }
+
+startupButton.addEventListener('click', ()=>{
     showNextQuestion();
     setAttemptedAnswer();
-    restartButton.style.display = "none";
-}
+    const startup = document.getElementById('startup-div');
+    startup.style.display = 'none';
+})
 
 nextButton.addEventListener("click", () => {
     console.log('next is clicked')
