@@ -1,0 +1,178 @@
+[
+    {
+        "index": 0,
+        "question": "Which of the following keywords is used to define a variable in Javascript?",
+        "options": [
+            "var",
+            "let",
+            "Both A and B",
+            "None of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "index": 1,
+        "question": "Which of the following methods is used to access HTML elements using Javascript?",
+        "options": [
+            "getElementById()",
+            "getElementsByClassName()",
+            "Both A and B",
+            "None of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "index": 2,
+        "question": "Which of the following methods can be used to display data in some form using Javascript?",
+        "options": [
+            "document.write()",
+            "consol.log()",
+            "window.alert()",
+            "All of the above"
+        ],
+        "answer": 4
+    },
+    {
+        "index": 3,
+        "question": "How can a datatype be declared to be a constant type?",
+        "options": [
+            "const",
+            "var",
+            "let",
+            "constant"
+        ],
+        "answer": 1
+    },
+    {
+        "index": 4,
+        "question": "What keyword is used to check whether a given property is valid or not?",
+        "options": [
+            "in",
+            "is in",
+            "exists",
+            "lies"
+        ],
+        "answer": 1
+    },
+    {
+        "index": 5,
+        "question": "What is the use of the <noscript> tag in Javascript?",
+        "options": [
+            "The contents are displayed by non-JS-based browsers.",
+            "Clears all the cookies and cache",
+            "Both A and B",
+            "None of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "index": 6,
+        "question": "When an operator’s value is NULL, the typeof returned by the unary operator is",
+        "options": [
+            "Boolean",
+            "Undefined",
+            "Object",
+            "Integer"
+        ],
+        "answer": 3
+    },
+    {
+        "index": 7,
+        "question": "What does the ‘toLocateString()’ method do in JS?",
+        "options": [
+            "Returns a localised object representation",
+            "Returns a parsed string",
+            "Both A and B",
+            "None of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "index": 8,
+        "question": "Which function is used to serialize an object into a JSON string in Javascript?",
+        "options": [
+            "stringify()",
+            "parse()",
+            "convert()",
+            "none of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "index": 9,
+        "question": "Which of the following methods is used to access HTML elements using Javascript?",
+        "options": [
+            "throws an error",
+            "ignores the statements",
+            "gives a warning",
+            "None of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "index": 10,
+        "question": "Which of the following are closures in Javascript?",
+        "options": [
+            "variables",
+            "functions",
+            "objects",
+            "All of the above"
+        ],
+        "answer": 4
+    },
+    {
+        "index": 11,
+        "question": "Which of the following is not a Javascript framework?",
+        "options": [
+            "node",
+            "vue",
+            "react",
+            "cassandra"
+        ],
+        "answer": 4
+    },
+    {
+        "index": 12,
+        "question": "What keyword is used to declare an asynchronous function in Javascript?",
+        "options": [
+            "async",
+            "await",
+            "setTimeout",
+            "None od the above"
+        ],
+        "answer": 1
+    },
+    {
+        "index": 13,
+        "question": "How to stop an interval timer in Javascript?",
+        "options": [
+            "cleanInterval",
+            "clearTimer",
+            "intervalOver",
+            "None od the above"
+        ],
+        "answer": 1
+    },
+    {
+        "index": 14,
+        "question": "How do we write a comment in javascript?",
+        "options": [
+            "/* */",
+            "//",
+            "#",
+            "$$"
+        ],
+        "answer": 2
+    },
+    {
+        "index": 15,
+        "question": "Which of the following are not server-side Javascript objects?",
+        "options": [
+            "date",
+            "file upload",
+            "Function",
+            "All of the above"
+        ],
+        "answer": 4
+    }
+]
