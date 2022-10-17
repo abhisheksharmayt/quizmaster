@@ -17,6 +17,7 @@ let score = 0;
 
 window.onload = () => {
     showNextQuestion();
+    setAttemptedAnswer();
     restartButton.style.display = "none";
 }
 
