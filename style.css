@@ -140,13 +140,17 @@ body {
     background-color: #FFF7E9;
 }
 
-main {
-    padding: 4rem;
-    margin: 0 10rem 4rem;
+#main-div {
+    padding: 1rem 1rem 4rem 1rem;
+    margin: 0 8rem 4rem;
     border: 1px solid white;
     border-radius: 1rem;
     background-color: white;
     box-shadow: 5px 5px 15px #89a0cd;
+}
+
+form {
+    margin: 0 3rem;
 }
 
 h1 {
@@ -211,6 +215,7 @@ span {
     font-size: 3rem;
     font-weight: 600;
     width: 100%;
+    padding: 0 2rem;
     margin: 4rem 0 2rem 0;
     color: #FF731D;
 }
@@ -242,4 +247,30 @@ p.startup{
     background-color: #1746A2;
     height: 100vh;
     width: 100vw;
+}
+
+#apple{
+    margin-bottom: 2rem;
+}
+
+#red{
+    display: inline-block;  
+    height: 15px;
+    width: 15px;
+    border-radius: 100px;
+    background-color: #FF605C;
+}
+#yellow{    
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100px;
+    background-color: #FFBD44;
+}
+#green{    
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100px;
+    background-color: #00CA4E;
 }

@@ -12,12 +12,10 @@ const progress = document.getElementById('progress');
 const question = document.getElementById('question');
 const form = document.querySelector('form');
 
-let submit = false;
 let currentQuestion = 0;
 let score = 0;
 
 // window.onload = () => {
-//     optionMap.clear();
 //     showNextQuestion();
 //     setAttemptedAnswer();
 //     restartButton.style.display = "none";

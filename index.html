@@ -23,9 +23,15 @@
         <p class="startup" style="display: block;">JavaScript Quiz</p>
         <button class="btn btn-lg btn-outline-light startup" id="startup-btn">START</button>
     </div>
-    <main>
-        <h1 id="question"></h1>
+    <!-- <main> -->
+    <div id="main-div">
+        <div id="apple">
+            <div id="red"></div>
+            <div id="yellow"></div>
+            <div id="green"></div>
+        </div>
         <form action="">
+            <h1 id="question"></h1>
             <div class="options-div">
                 <input class="form-radio-input" type="radio" name="check" id="option1">
                 <label class="form-radio-label" for="option1" id="first"></label>
@@ -46,11 +52,12 @@
         <div>
             <span id="scoreBoard" style="display: none;"></span>
         </div>
-    </main>
+    </div>
+    <!-- </main> -->
 
     <footer>
         <div id="progress-div">
-            <p id="progress">1/2</p>
+            <p id="progress">0/0</p>
         </div>
         <div>
             <button class="btn btn-lg btn-light" id="reset" style="display: none;">RESTART</button>
